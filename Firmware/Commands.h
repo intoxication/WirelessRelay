@@ -45,7 +45,9 @@ class Commander{
       if(current - last >= 60000)
       {
         last = current;
-        mWifi->send(1, (const uint8_t*)DEVICE_ID, sizeof(DEVICE_ID) / sizeof(char));
+        //broad cast message
+        //tell everyone our pin status
+        GetDeviceState(0);
       }
 
       uint8_t ubuff[64] = {'\0'};
