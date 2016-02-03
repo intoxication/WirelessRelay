@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.25)
+    (last_trace_width 0.3)
     (user_trace_width 0.3)
     (user_trace_width 0.4)
     (user_trace_width 0.5)
@@ -2445,11 +2445,11 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_2x04 (layer F.Cu) (tedit 56B174C2) (tstamp 56B16FBA)
+  (module Pin_Headers:Pin_Header_Straight_2x04 (layer F.Cu) (tedit 56B1716C) (tstamp 56B16FBA)
     (at 184.785 92.329 90)
     (descr "Through hole pin header")
     (tags "pin header")
-    (fp_text reference ESP8266-01 (at 4.445 4.191 180) (layer F.SilkS)
+    (fp_text reference ESP8266-02 (at 4.445 4.191 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_text value ESP8266-02 (at 0 -3.1 90) (layer F.Fab) hide
